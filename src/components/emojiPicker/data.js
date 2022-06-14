@@ -28,6 +28,11 @@ export const Data = [
         symbol: '🦖',
         name: "t-rex",
         keywords: "dino tyranosaurio"
+    },
+    {
+        symbol: '😍',
+        name: "amor",
+        keywords: "feliz enamorado"
     }
 
 ];
