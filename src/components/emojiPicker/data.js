@@ -24,5 +24,10 @@ export const Data = [
         name: "fuego",
         keywords: "fire llama fueguito"
     },
+    {
+        symbol: '🦖',
+        name: "t-rex",
+        keywords: "dino tyranosaurio"
+    }
 
 ];
