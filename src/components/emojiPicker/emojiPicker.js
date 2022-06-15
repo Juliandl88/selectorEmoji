@@ -26,8 +26,9 @@ export function EmojiPicker(props, inputRef) {
         }
     }
 
-    function EmojiPickerContainer(){
-        return <div>
+    return <div>
+        <button onClick={handleClickOpen}>😉</button>
+        {isOpen ? <div>
             <EmojiSearch onSearch={handleSearch}/>
             <div>
                 {
@@ -36,12 +37,7 @@ export function EmojiPicker(props, inputRef) {
                     ))
                 }
             </div>
-        </div>
-    }
-
-    return <div>
-        <button onClick={handleClickOpen}>😉</button>
-        {isOpen ? <EmojiPickerContainer /> : ""}
+        </div> : ""}
     </div>
 }
 
