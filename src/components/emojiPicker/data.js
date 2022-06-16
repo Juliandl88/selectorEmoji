@@ -1,38 +1,27 @@
-export const Data = [
+export const data = [
     {
-        symbol: '🙂',
-        name: "cara alegre",
-        keywords: "smiling face happy"
+      symbol: "😊",
+      name: "cara alegre",
+      keywords: "smiling face happy",
     },
     {
-        symbol: '❤️',
-        name: "corazon",
-        keywords: "heart love like"
+      symbol: "❤",
+      name: "corazon",
+      keywords: "hearth love like",
     },
     {
-        symbol: '👍',
-        name: "ok",
-        keywords: "todobien entendido"
+      symbol: "🔥",
+      name: "fuego",
+      keywords: "fire hot burn",
     },
     {
-        symbol: '😂',
-        name: "risa",
-        keywords: "gracioso risas"
+      symbol: "💎",
+      name: "diamante",
+      keywords: "gem stone diamond",
     },
     {
-        symbol: '🔥',
-        name: "fuego",
-        keywords: "fire llama fueguito"
+      symbol: "🤯",
+      name: "cabeza explotada",
+      keywords: "head exploding mind blowing",
     },
-    {
-        symbol: '🦖',
-        name: "t-rex",
-        keywords: "dino tyranosaurio"
-    },
-    {
-        symbol: '😍',
-        name: "amor",
-        keywords: "feliz enamorado"
-    }
-
-];
+  ];
